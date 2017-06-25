@@ -2,7 +2,7 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:500,100,300);
 
 /*----------------------------------------------------------------------------------------
-						FONT (OPEN SANS) IMPORT FROM GOOGLE FONTS 
+						FONT (OPEN SANS) IMPORT FROM GOOGLE FONTS
 -----------------------------------------------------------------------------------------*/
 /*----------------------------------------------------------------------------------------
 						COMMON STYLES
@@ -133,8 +133,7 @@ code {
 	display: block;
 	position: relative;
 	text-align: left;
-	border-radius: 15px;
-	border: 1px solid #e8e8e8;
+	border-radius: 5px;
 	color: #03C;
 	background: none;
 	overflow: auto;
@@ -451,11 +450,11 @@ form.line-form.two-fields button{
 		width:100%;
 		border-radius:0;
 	}
-	
+
 	form.line-form.two-fields .form-group input{
 		border:none;
 	}
-	 
+
 	form.line-form.two-fields .form-group:first-child input{
 		border-bottom:1px solid #eee;
 		border-right:none;
@@ -558,7 +557,7 @@ label.error.valid,
 	transition: all 0.25s ease-in;
 }
 
-.btn-sm, 
+.btn-sm,
 .btn-group-sm > .btn {
 	font-size:14px;
 	padding:3px 7px;
@@ -1009,7 +1008,7 @@ a.panel-heading.collapsed:after {
 	-webkit-animation-fill-mode: both;
 	animation-fill-mode: both;
 }
-@-webkit-keyframes 
+@-webkit-keyframes
 loader-animation {
  from {
  transform: rotate(0deg);
@@ -1021,7 +1020,7 @@ to {
 	-webkit-transform: rotate(360deg);
 }
 }
-@keyframes 
+@keyframes
 loader-animation {
  from {
  transform: rotate(0deg);
